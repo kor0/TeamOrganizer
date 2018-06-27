@@ -9,7 +9,7 @@ This projects is made with flask and some architectural patterns for a Software 
     Organizing teams has been a normal problem throughout Industry, mainly as consequence of unbalanced knowledge spread among teams, leading to projects with much better teams than it needs and projects with much worse teams than it requires. As consequence, some projects are bound to end unfinished or with several bugs, while others finish early and the team ends up idle. 
 
 <h2>Business Case:</h2>
-    Team Organization becomes a critical area in the optimization of overall results in an organization with several teams and projects. This project is designed to auxiliate the building of teams, aiming to help managers to assign balanced teams to projects of the proper dificulty (taking as account the team experience and prefered KA's). Projects come and go, TOME helps managers to watch all vigent projects and allow stakeholders to create new projects.
+    Team Organization becomes a critical area in the optimization of overall results in an organization with several teams and projects. This project is designed to auxiliate the building of teams, aiming to help managers to assign balanced teams to projects of the proper dificulty (taking as account the team experience and prefered KA's). Projects come and go, TOME helps managers to watch all current projects and allow stakeholders to create new projects.
 
 <h2>Goals & Objectives:</h2>
 
