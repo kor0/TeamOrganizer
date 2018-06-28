@@ -59,6 +59,7 @@ MongoEngine is an Object-Document Mapper, written in Python for working with Mon
 In MongoDB, a document is roughly equivalent to a row in an RDBMS. When working with relational databases, rows are stored in tables, which have a strict schema that the rows follow. MongoDB stores documents in collections rather than tables — the principal difference is that no schema is enforced at a database level.
 MongoEngine allows you to define schemata for documents as this helps to reduce coding errors, and allows for utility methods to be defined on fields which may be present.
 To define a schema for a document, create a class that inherits from Document. Fields are specified by adding field objects as class attributes to the document class. This is how the schema of the Employee is structured in the models.py of this project:
+
 ```python
 class Employee(Document):
     name = StringField(max_length=60, required=True, unique=True)
