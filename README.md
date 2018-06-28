@@ -50,3 +50,31 @@ This projects is made with flask and some architectural patterns for a Software 
 | Security | The system will protect user data against malicious attacks. |
 | Security | The system will allow only authenticated users to access authorized data. |
 | Information Technology | The system will be designed for enough availability as to be reliable on a academic simulation of the system. |
+
+
+<h1>Architectural Structure</h1>
+
+<h2>Mongo Engine</h2>
+MongoEngine is an Object-Document Mapper, written in Python for working with MongoDB. 
+In MongoDB, a document is roughly equivalent to a row in an RDBMS. When working with relational databases, rows are stored in tables, which have a strict schema that the rows follow. MongoDB stores documents in collections rather than tables — the principal difference is that no schema is enforced at a database level.
+MongoEngine allows you to define schemata for documents as this helps to reduce coding errors, and allows for utility methods to be defined on fields which may be present.
+To define a schema for a document, create a class that inherits from Document. Fields are specified by adding field objects as class attributes to the document class. This is how the schema of the Employee is structured in the models.py of this project:
+```python
+class Employee(Document):
+    name = StringField(max_length=60, required=True, unique=True)
+    address = StringField(max_length=60)
+    personal_phone = StringField(max_length=20)
+    personal_celphone = StringField(max_length=20)
+    team = ReferenceField(Team, required=True)
+    gender = ReferenceField(Gender, required=True)
+    tags = ListField(ReferenceField(Tags))
+    prefered_language = ReferenceField(Languages, required = True)
+    prefered_area = ReferenceField(Stack, required = True)
+    prefered_activity = ReferenceField(Action, required = True)
+    years_experience = IntField(required=True)
+```
+
+<h2>Flask</h2>
+Flask is a microframework for Python based on Werkzeug and Jinja 2.
+<h2>flask-app-builder</h2>
+Simple and rapid application development framework, built on top of Flask. Includes detailed security, auto CRUD generation for your models, google charts and much more.
