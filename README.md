@@ -1,15 +1,22 @@
 # TeamOrganizer
+<b>TOME - Team Organization Made Easy</b>
 This projects is made with flask and some architectural patterns for a Software Engineering class.
 
 
 
-<h1>Business Requirements</h1>
-<b>TOME - Team Organization Made Easy</b>
-<h2>Background:</h2>
-    Organizing teams has been a normal problem throughout Industry, mainly as consequence of unbalanced knowledge spread among teams, leading to projects with much better teams than it needs and projects with much worse teams than it requires. As consequence, some projects are bound to end unfinished or with several bugs, while others finish early and the team ends up idle. 
+<h1>Software Requirements Specification (Business Requirements Document)</h1>
+<p><i>The SRS states the functions and capabilities that a software system must provide, its characteristics, and the constraints that it must respect. It should describe as completely as necessary the system's behaviours under various conditions, as well as desired system qualities such as perfomance, security and usability. The SRS is the basis for the subsequent project planning, design, and coding, as well as the foundation for system testing and user documentation. However, it should not contain design, construction, testing, or project management details other than known design and implement constraints.<i><p>
 
-<h2>Business Case:</h2>
-    Team Organization becomes a critical area in the optimization of overall results in an organization with several teams and projects. This project is designed to help the building of teams, aiming to help managers to assign balanced teams to projects of the proper dificulty (taking as account the team experience and prefered KA's). Projects come and go, TOME helps managers to watch all current projects and allow stakeholders to create new projects.
+    
+<h2>1. Introduction</h2>
+<p><h3>1.1 Purpose</h3></p>
+<p>Organizing teams has been a normal problem throughout Industry, mainly as consequence of unbalanced knowledge spread among teams, leading to projects with much better teams than it needs and projects with much worse teams than it requires. As consequence, some projects are bound to end unfinished or with several bugs, while others finish early and the team ends up idle.</p> 
+
+<p><h3>1.2 Document Conventions</h3></p>
+<p> This document follows the guideline and template provided by the book <strong>Software Requirements - Third Edition by Karl Wiegers and Joy Beatty (Microsoft - Best Practices)</strong>, found as figure 10-2 at page 191, chapter 10.<p>
+    
+<p><h3>1.3 Project Scope</h3></p>
+<p>Team Organization becomes a critical area in the optimization of overall results in an organization with several teams and projects. This project is designed to help the building of teams, aiming to help managers to assign balanced teams to projects of the proper dificulty (taking as account the team experience and prefered KA's). Projects come and go, TOME helps managers to watch all current projects and allow stakeholders to create new projects.</p>
 
 <h2>Goals & Objectives:</h2>
 
