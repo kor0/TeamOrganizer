@@ -5,7 +5,7 @@ This projects is made with flask and some architectural patterns for a Software 
 
 
 <h1>Software Requirements Specification (Business Requirements Document)</h1>
-<p><i>The SRS states the functions and capabilities that a software system must provide, its characteristics, and the constraints that it must respect. It should describe as completely as necessary the system's behaviours under various conditions, as well as desired system qualities such as perfomance, security and usability. The SRS is the basis for the subsequent project planning, design, and coding, as well as the foundation for system testing and user documentation. However, it should not contain design, construction, testing, or project management details other than known design and implement constraints.<i><p>
+<p><i>The SRS states the functions and capabilities that a software system must provide, its characteristics, and the constraints that it must respect. It should describe as completely as necessary the system's behaviours under various conditions, as well as desired system qualities such as perfomance, security and usability. The SRS is the basis for the subsequent project planning, design, and coding, as well as the foundation for system testing and user documentation. However, it should not contain design, construction, testing, or project management details other than known design and implement constraints.</i><p>
 
     
 <h2>1. Introduction</h2>
