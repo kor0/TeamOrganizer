@@ -54,12 +54,24 @@ This projects is made with flask and some architectural patterns for a Software 
 
 <h1>Architectural Structure</h1>
 
-<h2>Mongo Engine</h2>
+<h2>MongoDB <i>(https://github.com/mongodb/mongo)</i></h2>
+<p>MongoDB is designed to meet the demands of modern apps with a technology foundation that enables you through:</p>
+<ul>
+    <li>The document data model – presenting you the best way to work with data.</li>
+    <li>A distributed systems design – allowing you to intelligently put data where you want it.</li>
+    <li>A unified experience that gives you the freedom to run anywhere – allowing you to future-proof your work and eliminate vendor lock-in.</li>
+</ul>
+<p>As an open source database, MongoDB can be run anywhere — from laptops and mainframes to a private cloud, public cloud. The developer experience is entirely unaffected by the deployment model chosen; similarly, those teams that want to maintain responsibility for running their own databases can also leverage a unified set of tools that deliver the same experience across different environments.</p>
+<h3>Reference:</h3>
+<i>https://docs.mongodb.com/manual/</i>
+
+<h2>MongoEngine <i>(https://github.com/MongoEngine/mongoengine)</i></h2>
 <p>MongoEngine is an Object-Document Mapper, written in Python for working with MongoDB. 
 MongoEngine is currently tested against MongoDB v2.4, v2.6, and v3.0.</p>
 <p>In MongoDB, a document is roughly equivalent to a row in an RDBMS. When working with relational databases, rows are stored in tables, which have a strict schema that the rows follow. MongoDB stores documents in collections rather than tables — the principal difference is that no schema is enforced at a database level.</p>
-<p>MongoEngine allows you to define schemata for documents as this helps to reduce coding errors, and allows for utility methods to be defined on fields which may be present.
-To define a schema for a document, create a class that inherits from Document. Fields are specified by adding field objects as class attributes to the document class. This is how the schema of the Employee is structured in the models.py of this project:</p>
+
+<h3>Schemata:</h3>
+<p>MongoEngine allows you to define schemata for documents as this helps to reduce coding errors, and allows for utility methods to be defined on fields which may be present. To define a schema for a document, create a class that inherits from Document. Fields are specified by adding field objects as class attributes to the document class. This is how the schema of the Employee is structured in the models.py of this project:</p>
 
 ```python
 class Employee(Document):
@@ -76,7 +88,18 @@ class Employee(Document):
     years_experience = IntField(required=True)
 ```
 
-<h2>Flask</h2>
-Flask is a microframework for Python based on Werkzeug and Jinja 2.
+<h3>API Reference:</h3>
+<i>http://docs.mongoengine.org/apireference.html</i>
+
+<h2>Flask <i>(https://github.com/pallets/flask)</i></h2>
+<p>Flask is a microframework for Python based on Werkzeug and Jinja 2. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. Flask is a lightweight WSGI web application framework. It began as a simple wrapper around Werkzeug and Jinja and has become one of the most popular Python web application frameworks.</p>
+
+Flask offers suggestions, but doesn't enforce any dependencies or project layout. It is up to the developer to choose the tools and libraries they want to use. There are many extensions provided by the community that make adding new functionality easy.
+
+<h3>API Reference:</h3>
+<i>http://flask.pocoo.org/docs/1.0/api/</i>
+
 <h2>flask-app-builder</h2>
 Simple and rapid application development framework, built on top of Flask. Includes detailed security, auto CRUD generation for your models, google charts and much more.
+<h3>API Reference:</h3>
+<i>http://flask-appbuilder.readthedocs.io/en/latest/api.html</i>
