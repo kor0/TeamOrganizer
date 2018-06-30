@@ -10,7 +10,7 @@ This projects is made with flask and some architectural patterns for a Software 
     
 <h2>1. Introduction</h2>
 <p><h3>1.1 Purpose</h3></p>
-<p>Organizing teams has been a normal problem throughout Industry, mainly as consequence of unbalanced knowledge spread among teams, leading to projects with much better teams than it needs and projects with much worse teams than it requires. As consequence, some projects are bound to end unfinished or with several bugs, while others finish early and the team ends up idle.</p> 
+<p>Organizing teams has been a normal problem throughout Software Development Organizations, mainly as consequence of unbalanced knowledge spread among teams, leading to projects with much better teams than it needs and projects with much worse teams than it requires. As consequence, some projects are bound to end unfinished or with several bugs, while others finish early and the team ends up idle.</p> 
 
 <p><h3>1.2 Document Conventions</h3></p>
 <p> This document follows the guideline and template provided by the book <strong>Software Requirements - Third Edition by Karl Wiegers and Joy Beatty (Microsoft - Best Practices)</strong>, found as figure 10-2 at page 191, chapter 10.<p>
@@ -18,10 +18,32 @@ This projects is made with flask and some architectural patterns for a Software 
 <p><h3>1.3 Project Scope</h3></p>
 <p>Team Organization becomes a critical area in the optimization of overall results in an organization with several teams and projects. This project is designed to help the building of teams, aiming to help managers to assign balanced teams to projects of the proper dificulty (taking as account the team experience and prefered KA's). Projects come and go, TOME helps managers to watch all current projects and allow stakeholders to create new projects.</p>
 
+<p><h3>1.4 References</h3></p>
+<ol>
+    <li><i>(http://www.nptel.ac.in/courses/Webcourse-contents/IIT%20Kharagpur/Soft%20Engg/pdf/m12L30.pdf)</i> Module 12, Lesson 30 - Organization and Team Structures - CSE ITT Kanpur</li>
+</ol>
+
+<h2>2. Overall Description</h2>
+<p><h3>2.1 Product Perspective</h3></p>
+<p>Usually every software development organization handles several projects at any time. Software organizations assign different teams of engineers to handle different software projects. Each type of organization structure has its ownadvantages and disadvantages so the issue “how is the organization as a whole structured?” must be taken into consideration so that each software project can be finished before its deadline.[1]<p>
+    
+<p><h3>2.2 User Classes and Characteristics</h3></p>
+<p><h4>2.2.1 Employee</h4></p>
+<p>The employee registers itself on the system, providing information about it's prefered area of development, the technologies it knows best and how confident it feels with it's expertise. When assigned to a team, the employee receives an email with information about the project and the team it will be working with for the next iterations.</p>
+
+<p><h4>2.2.2 Manager</h4></p>
+<p>The manager has access to all manipulations of Teams, Employees and Projects. It is able to analyse the teams and projects and edit them. It is the most important stakeholder at the system requirements, since the main objective of TOME is to make it's job faster and easier.</p>
+
+<p><h4>2.2.3 Client</h4></p>
+<p>Clients post their projects with several information about what has to be accomplished. The team helps the client to express the requirements of the system in the long run, frequently updating the project blueprint.</p>
+
+<p><h4>2.2.4 Admin</h4></p>
+<p>The admin has full access to the CRUD of the system. It is there only to configure the system, give proper authorization to the users and help maintenance.</p>
+
 <h2>Goals & Objectives:</h2>
 
 | Timeline | Goal | Measurement |
-| ------------- | ------------- | ------------- |
+| --- | --- | --- |
 | time 0, speed.1 | Increase the speed managers take to assign a team to a project | Mean Time to Create Team (MTCT) < x minutes |
 | time 0, speed.2 | Increase the speed employees take to register their overall information + prefered environment of work | Mean Time to Register Employee (MTRE) < y minutes |
 | time 0, speed.3 | Increase the speed stakeholders take to register a new projects | Mean Time to Register Project (MTRP) < z minutes|
