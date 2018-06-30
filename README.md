@@ -40,6 +40,20 @@ This projects is made with flask and some architectural patterns for a Software 
 <p><h4>2.2.4 Admin</h4></p>
 <p>The admin has full access to the CRUD of the system. It is there only to configure the system, give proper authorization to the users and help maintenance.</p>
 
+<p><h3>2.3 Operating Environment</h3></p>
+<p>The system is operating using AWS Elastic Beanstalk + EC2 + Route 53, which provides high availability and good performance of the system. The system will be hosted with Route 53 to the URL http://pyrrhicbuddha.com. The server is running with Linux operating system, with a virtual environment with mongodb database, flask web framework and flask-app-builder microfamework and the source code.<p>
+    
+<p><h3>2.4 Design and Implementation Constraints</h3></p>
+
+| Type | Constraint |
+| --- | --- |
+| Implementation | The project will be implemented in Python. |
+| Implementation | The project will use MongoDB and MongoEngine for the database connection. |
+| Implementation | The project will use Flask and flask-app-builder to build the main structure of the system. |
+| Financial | No budget. |
+| Schedule | The project must be launched by 07/07/2018 in order to meet the objectives in the business case. |
+| Facilities & Infrastructure | The project team will use existing office space and IT infrastructure such as computing equipment and networks. |
+
 <h2>Goals & Objectives:</h2>
 
 | Timeline | Goal | Measurement |
@@ -58,13 +72,7 @@ This projects is made with flask and some architectural patterns for a Software 
 | Scope | Prefered Technologies (KA's) available are limited to a pre-selected group. Employees won't be able to cite KA's outside this group as Prefence. |
 | Environment | The solution will optmize the standard method of team organization. |
 
-<h2>Constraints:</h2>
 
-| Type | Constraint |
-| --- | --- |
-| Financial | No budget. |
-| Schedule | The project must be launched by 07/07/2018 in order to meet the objectives in the business case. |
-| Facilities & Infrastructure | The project team will use existing office space and IT infrastructure such as computing equipment and networks. |
 
 <h2>Functional Requirements:</h2>
 
