@@ -21,11 +21,14 @@ This projects is made with flask and some architectural patterns for a Software 
 <p><h3>1.4 References</h3></p>
 <ol>
     <li><i>(http://www.nptel.ac.in/courses/Webcourse-contents/IIT%20Kharagpur/Soft%20Engg/pdf/m12L30.pdf)</i> Module 12, Lesson 30 - Organization and Team Structures - CSE ITT Kanpur</li>
+    <li><i>(https://aws.amazon.com/elasticbeanstalk/details/)</i> AWS Elastic Beanstalk Features</li>
+    <li><i>(https://aws.amazon.com/ec2/details/)</i> Amazon EC2 Product Details</li>
+    <li><i>(https://aws.amazon.com/route53/details/)</i> Amazon Route 53 Product Details</li> 
 </ol>
 
 <h2>2. Overall Description</h2>
 <p><h3>2.1 Product Perspective</h3></p>
-<p>Usually every software development organization handles several projects at any time. Software organizations assign different teams of engineers to handle different software projects. Each type of organization structure has its ownadvantages and disadvantages so the issue “how is the organization as a whole structured?” must be taken into consideration so that each software project can be finished before its deadline.[1]<p>
+<p>Usually every software development organization handles several projects at any time. Software organizations assign different teams of engineers to handle different software projects. Each type of organization structure has its ownadvantages and disadvantages so the issue “how is the organization as a whole structured?” must be taken into consideration so that each software project can be finished before its deadline[1].<p>
     
 <p><h3>2.2 User Classes and Characteristics</h3></p>
 <p><h4>2.2.1 Employee</h4></p>
@@ -41,7 +44,7 @@ This projects is made with flask and some architectural patterns for a Software 
 <p>The admin has full access to the CRUD of the system. It is there only to configure the system, give proper authorization to the users and help maintenance.</p>
 
 <p><h3>2.3 Operating Environment</h3></p>
-<p>The system is operating using AWS Elastic Beanstalk + EC2 + Route 53, which provides high availability and good performance of the system. The system will be hosted with Route 53 to the URL http://pyrrhicbuddha.com. The server is running with Linux operating system, with a virtual environment with mongodb database, flask web framework and flask-app-builder microfamework and the source code.<p>
+<p>The system is operating using AWS Elastic Beanstalk[2] + EC2[3] + Route 53[4], which provides high availability and good performance of the system. The system will be hosted with Route 53 to the URL http://pyrrhicbuddha.com. The server is running with Linux operating system, with a virtual environment with mongodb database, flask web framework and flask-app-builder microfamework and the source code.<p>
     
 <p><h3>2.4 Design and Implementation Constraints</h3></p>
 
