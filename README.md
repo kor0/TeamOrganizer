@@ -55,10 +55,11 @@ This projects is made with flask and some architectural patterns for a Software 
 <h1>Architectural Structure</h1>
 
 <h2>Mongo Engine</h2>
-MongoEngine is an Object-Document Mapper, written in Python for working with MongoDB. 
-In MongoDB, a document is roughly equivalent to a row in an RDBMS. When working with relational databases, rows are stored in tables, which have a strict schema that the rows follow. MongoDB stores documents in collections rather than tables — the principal difference is that no schema is enforced at a database level.
-MongoEngine allows you to define schemata for documents as this helps to reduce coding errors, and allows for utility methods to be defined on fields which may be present.
-To define a schema for a document, create a class that inherits from Document. Fields are specified by adding field objects as class attributes to the document class. This is how the schema of the Employee is structured in the models.py of this project:
+<p>MongoEngine is an Object-Document Mapper, written in Python for working with MongoDB. 
+MongoEngine is currently tested against MongoDB v2.4, v2.6, and v3.0.</p>
+<p>In MongoDB, a document is roughly equivalent to a row in an RDBMS. When working with relational databases, rows are stored in tables, which have a strict schema that the rows follow. MongoDB stores documents in collections rather than tables — the principal difference is that no schema is enforced at a database level.</p>
+<p>MongoEngine allows you to define schemata for documents as this helps to reduce coding errors, and allows for utility methods to be defined on fields which may be present.
+To define a schema for a document, create a class that inherits from Document. Fields are specified by adding field objects as class attributes to the document class. This is how the schema of the Employee is structured in the models.py of this project:</p>
 
 ```python
 class Employee(Document):
