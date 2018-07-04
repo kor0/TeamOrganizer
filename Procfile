@@ -1,1 +1,1 @@
-web: $(sudo service mongod start; fabmanager run) 
+web: $(service mongod start; fabmanager run) 
