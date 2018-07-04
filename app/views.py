@@ -33,6 +33,11 @@ class TeamModelView(ModelView):
     related_views = [EmployeeModelView]
 appbuilder.add_view(TeamModelView, "List Teams",category = "Teams")
 
+
+class T(ModelView):
+    datamodel = MongoEngineInterface(Languages)
+appbuilder.add_view(T, "T",category = "T")
+
 appbuilder.security_cleanup()
 """
     Application wide 404 error handler
