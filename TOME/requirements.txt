@@ -1,0 +1,4 @@
+Flask
+flask-appbuilder
+mongoengine
+mongodb
