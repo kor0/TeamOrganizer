@@ -34,9 +34,24 @@ class TeamModelView(ModelView):
 appbuilder.add_view(TeamModelView, "List Teams",category = "Teams")
 
 
-class T(ModelView):
+class T4(ModelView):
     datamodel = MongoEngineInterface(Languages)
-appbuilder.add_view(T, "T",category = "T")
+appbuilder.add_view(T, "T4",category = "To")
+
+class T3(ModelView):
+    datamodel = MongoEngineInterface(Stack)
+appbuilder.add_view(T, "T3",category = "To")
+
+
+class T2(ModelView):
+    datamodel = MongoEngineInterface(Gender)
+appbuilder.add_view(T, "T2",category = "To")
+
+
+class T1(ModelView):
+    datamodel = MongoEngineInterface(Action)
+appbuilder.add_view(T, "T1",category = "To")
+
 
 appbuilder.security_cleanup()
 """
