@@ -7,7 +7,7 @@ SECRET_KEY = '\2\1thdbfhsdfgzgdshrshhsfcretkey\1\2\e\y\y\h'
 
 # The MongoEngine connection string.
 MONGODB_SETTINGS = {
-    'db': 'tome', 
+    'db': 'tome1', 
     'host': 'mongodb://heroku_0dv5k10h:9n9es8sdacme97kqt9duq59p86@ds127851.mlab.com:27851/heroku_0dv5k10h',
 }
 
