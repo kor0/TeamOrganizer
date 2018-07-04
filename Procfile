@@ -1,1 +1,1 @@
-web: $(service mongod start; fabmanager run) 
+web: $(mongod start; fabmanager run) 
