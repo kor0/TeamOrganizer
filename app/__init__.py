@@ -13,7 +13,6 @@ logging.getLogger().setLevel(logging.DEBUG)
 
 app = Flask(__name__)
 app.config.from_object('config')
-MongoEngine.logout('mongodb://ds127771.mlab.com:27771/tome')
 db = MongoEngine(app)
 appbuilder = AppBuilder(app, security_manager_class=SecurityManager)
 
