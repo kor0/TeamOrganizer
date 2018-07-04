@@ -1,1 +1,1 @@
-web: fabmanager run 
+worker: fabmanager run 
