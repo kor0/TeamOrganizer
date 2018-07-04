@@ -3,3 +3,4 @@ flask-appbuilder
 mongoengine
 flask-mongoengine
 pymongo==3.7.0 
+six==1.10.0
