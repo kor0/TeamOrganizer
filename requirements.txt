@@ -1,4 +1,4 @@
-Flask
+Flask==0.12.99
 flask-appbuilder
 mongoengine
 flask-mongoengine
