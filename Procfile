@@ -1,1 +1,1 @@
-web: fabmanager run $PORT
+web: fabmanager run 
