@@ -7,7 +7,6 @@ SECRET_KEY = '\2\1thisismyscretkey\1\2\e\y\y\h'
 
 # The MongoEngine connection string.
 MONGODB_SETTINGS = {
-    'db': 'mydb0',
     'host': 'mongodb://admin:test123456@ds127771.mlab.com:27771/tome'
 }
 
