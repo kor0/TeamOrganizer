@@ -13,7 +13,7 @@ logging.getLogger().setLevel(logging.DEBUG)
 
 app = Flask(__name__)
 app.config.from_object('config')
-app.config['MONGODB_SETTINGS'] = {'HOST':'mongodb://zuko:zuko12@ds127811.mlab.com:27811/tome_arq','DB': 'tome_arq'}
+app.config['MONGODB_SETTINGS'] = {'HOST':'mongodb://careful:123456abc@ds127771.mlab.com:27771/careful','DB': 'careful'}
 db = MongoEngine(app)
 appbuilder = AppBuilder(app, security_manager_class=SecurityManager)
 
