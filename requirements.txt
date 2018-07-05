@@ -1,5 +1,5 @@
 Flask==0.12.4
-Flask-AppBuilder==1.11.1
+Flask-AppBuilder==1.11.0
 Flask-Babel==0.11.1
 Flask-Login==0.2.11
 Flask-Mail==0.9.1
