@@ -34,26 +34,26 @@ class TeamModelView(ModelView):
 appbuilder.add_view(TeamModelView, "List Teams",category = "Teams")
 
 
-class T4(ModelView):
-    datamodel = MongoEngineInterface(Languages)
-appbuilder.add_view(T4, "T4",category = "To")
+#class T4(ModelView):
+ #   datamodel = MongoEngineInterface(Languages)
+#appbuilder.add_view(T4, "T4",category = "To")
 
-class T3(ModelView):
-    datamodel = MongoEngineInterface(Stack)
-appbuilder.add_view(T3, "T3",category = "To")
-
-
-class T2(ModelView):
-    datamodel = MongoEngineInterface(Gender)
-appbuilder.add_view(T2, "T2",category = "To")
+#class T3(ModelView):
+ #   datamodel = MongoEngineInterface(Stack)
+#appbuilder.add_view(T3, "T3",category = "To")
 
 
-class T1(ModelView):
-    datamodel = MongoEngineInterface(Action)
-appbuilder.add_view(T1, "T1",category = "To")
+#class T2(ModelView):
+ #   datamodel = MongoEngineInterface(Gender)
+#appbuilder.add_view(T2, "T2",category = "To")
 
+#
+#class T1(ModelView):
+ #   datamodel = MongoEngineInterface(Action)
+#appbuilder.add_view(T1, "T1",category = "To")
+#
 
-appbuilder.security_cleanup()
+#appbuilder.security_cleanup()
 """
     Application wide 404 error handler
 """
