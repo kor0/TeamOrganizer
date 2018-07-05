@@ -27,6 +27,7 @@ class App:
             appbuilder = AppBuilder(app, security_manager_class=SecurityManager)
         else:
             App.instance.val = arg
+        return app
 
 """
 from sqlalchemy.engine import Engine
@@ -40,5 +41,5 @@ def set_sqlite_pragma(dbapi_connection, connection_record):
     cursor.execute("PRAGMA foreign_keys=ON")
     cursor.close()
 """    
-start = App('init')
+app = App('init')
 from app import views
