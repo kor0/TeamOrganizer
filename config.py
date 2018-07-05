@@ -7,8 +7,8 @@ SECRET_KEY = '\2\1thdbfhsdfgzgdshrshhsfcretkey\1\2\e\y\y\h'
 
 # The MongoEngine connection string.
 MONGODB_SETTINGS = {
-    'db': 'heroku_5dh5z6fq', 
-    'host': 'mongodb://heroku_5dh5z6fq:jh48rt9tr82rp1n3i8oa2kvapq@ds127811.mlab.com:27811/heroku_5dh5z6fq'
+    'DB': 'tome_arq', 
+    'host': 'mongodb://zuko:zuko12@ds127811.mlab.com:27811/tome_arq'
 }
 
 # Flask-WTF flag for CSRF
