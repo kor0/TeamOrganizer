@@ -36,7 +36,7 @@ appbuilder.add_view(TeamModelView, "List Teams",category = "Teams")
 
 class LanguagesModelView(ModelView):
     datamodel = MongoEngineInterface(Languages)
-appbuilder.add_view(LanguagesModelView, "List Languages",category = "Languages")
+appbuilder.add_view(LanguagesModelView, "List Languages",category = "Teams")
 
 #class T3(ModelView):
  #   datamodel = MongoEngineInterface(Stack)
