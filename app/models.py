@@ -107,5 +107,43 @@ def fillGender():
     male.save()
     female = Gender(name='Female')
     female.save()
-    
+
+def fillStack():
+    back = Stack(name='Back-end')
+    back.save()
+    front = Stack(name='Front-end')
+    front.save()
+    full = Stack(name='Fullstack')
+    full.save()
+
+def fillLanguages():
+    java = Languages(name='Java')
+    java.save()
+    js = Languages(name='Javascript')
+    js.save()
+    go = Languages(name='Golang')
+    go.save()
+    py = Languages(name='Python')
+    py.save()
+    sw = Languages(name='Swift')
+    sw.save()
+ 
+def fillAction():
+    req = Action(name='Requirements')
+    req.save()
+    des = Action(name='Design')
+    des.save()
+    cod = Action(name='Coding')
+    cod.save()
+    test = Action(name='Testing')
+    test.save()
+    proj = Action('Project Management')
+    proj.save()
+    man = Action('Maintenance')
+    man.save()
+ 
+
 #fillGender()
+fillLanguages()
+fillAction()
+fillStack()
