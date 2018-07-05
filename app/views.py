@@ -15,7 +15,7 @@ class EmployeeModelView(ModelView):
     list_columns = ['name','prefered_area','team']
 
     show_fieldsets = [
-        ('Summary',{'fields':['user', 'team']}),
+        ('Summary',{'fields':['name', 'user', 'team']}),
         ('Assets',{'fields':['prefered_activity','prefered_language', 'prefered_area', 'years_experience'],'expanded':False}),
         ]
 appbuilder.add_view(EmployeeModelView, "List Employees",category = "Employees")
@@ -26,6 +26,7 @@ appbuilder.add_view(ClientModelView, "List Clients",category = "Clients")
 
 class ProjectModelView(ModelView):
     datamodel = MongoEngineInterface(Proj)
+    related_views = [ClientModelView]
 appbuilder.add_view(ProjectModelView, "List Projects",category = "Projects")
 
 class TeamModelView(ModelView):
