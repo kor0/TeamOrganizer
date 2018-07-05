@@ -102,7 +102,7 @@ class Client(Document):
     personal_celphone = StringField(max_length=20)
     project = ReferenceField(Proj)
 
-fillGender():
+def fillGender():
     male = Gender(name='Male')
     male.save()
     female = Gender(name='Female')
