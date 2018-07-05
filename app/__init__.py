@@ -16,7 +16,7 @@ class App:
     instance = None
     def __init__(self, arg):
         if not App.instance:
-            App.instance = App.__OnlyOne(arg)
+            App.instance = App.__App(arg)
             logging.basicConfig(format='%(asctime)s:%(levelname)s:%(name)s:%(message)s')
             logging.getLogger().setLevel(logging.DEBUG)
 
