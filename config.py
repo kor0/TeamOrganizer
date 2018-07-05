@@ -6,9 +6,9 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 SECRET_KEY = '\2\1thdbfhsdfgzgdshrshhsfcretkey\1\2\e\y\y\h'
 
 # The MongoEngine connection string.
-MONGODB_SETTINGS = {
-    'host': 'mongodb://zuko:zuko12@ds127811.mlab.com:27811/tome_arq'
-}
+#MONGODB_SETTINGS = {
+#    'host': 'mongodb://zuko:zuko12@ds127811.mlab.com:27811/tome_arq'
+#}
 
 # Flask-WTF flag for CSRF
 CSRF_ENABLED = True
